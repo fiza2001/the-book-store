@@ -9,16 +9,16 @@ export default function Home() {
             {/* top img */}
           <img src={require("./images/bk1.jpg")} alt="" className="home-img" />
           <div className="home-row">
-            <Product />
-            <Product />
+            <Product className="product-card" />
+            <Product className="product-card" />
           </div>
           <div className="home-row">
-          <Product />
-          <Product />
-          <Product />
+          <Product className="product-card" />
+          <Product className="product-card" />
+          <Product className="product-card" />
           </div>
           <div className="home-row">
-          <Product />
+          <Product className="product-card" />
           </div>
         </div>
       </div>
