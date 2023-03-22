@@ -79,8 +79,9 @@ body {
 .header-search-icon{
     margin-top: 5px;
     color: green;
+    height: 70px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 728px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -91,5 +92,17 @@ body {
   .nav-item {
     margin-left: 40px;
   }
+  
+  @media screen and (max-width: 1042px) {
+    .header-search-input{
+      display: none;
+    }
+    .header-nav{
+      display: none;
+    }
+  
+
+  }
+
 }
 

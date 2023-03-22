@@ -5,13 +5,13 @@ import SearchIcon from "@mui/icons-material/Search";
 
 export default function Header() {
   return (
-    // header-div
     <div className="header">
       {/* nav logo */}
       <div className="header-logo">
         <DiamondIcon className="header-logo-img" fontSize="large" />
         <h2 className="header-logo-title">Bookish</h2>
       </div>
+
       {/* nav search */}
       <div className="header-search">
         <input
@@ -20,11 +20,12 @@ export default function Header() {
           placeholder="search"
         />
         <button className="header-search-button">
-          <SearchIcon className="header-search-icon" />
+          <SearchIcon className="header-search-icon" fontSize="medium" />
         </button>
       </div>
+
       {/* nav final comp */}
-      <div className="header-nav">
+      <div div className="header-nav">
         <div className="nav-item">
           <span className="1st-line">Hello User</span>
           <br />
