@@ -3,7 +3,6 @@
     align-items: flex-end;
     max-height: 400px;
     min-width: 100px;
-    background-color: pink;
     z-index: 1;
     padding-left: 20px;
     padding-right: 20px;
@@ -12,17 +11,21 @@
 }
 .product-img{
     object-fit: contain;
-    width: 100px;
+    width: 200px;
     height: 200px;
 }
 .product-img-div{
     text-align: center;
-    height: 170px;
+    height: 200px;
 }
 .product-info{
     text-align: center;
     padding: 0;
     line-height: 20px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 /* responsive */
@@ -31,7 +34,6 @@
         width: auto;
         max-height: 430px;
         min-width: 100px;
-        background-color: pink;
         z-index: 1;
         padding-left: 20px;
         padding-right: 20px;
