@@ -2,15 +2,18 @@ import "./Header.css";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import DiamondIcon from "@mui/icons-material/Diamond";
 import SearchIcon from "@mui/icons-material/Search";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <div className="header">
       {/* nav logo */}
-      <div className="header-logo">
-        <DiamondIcon className="header-logo-img" fontSize="large" />
-        <h2 className="header-logo-title">Bookish</h2>
-      </div>
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <div className="header-logo">
+          <DiamondIcon className="header-logo-img" fontSize="large" />
+          <h2 className="header-logo-title">Bookish</h2>
+        </div>
+      </Link>
 
       {/* nav search */}
       <div className="header-search">
@@ -36,10 +39,12 @@ export default function Header() {
           <br />
           <span className="2nd line">Shop</span>
         </div>
-        <div className="nav-item basket-icon">
-          <ShoppingBasketIcon />
-          <span className="2nd line">0</span>
-        </div>
+        <Link to="/checkout" style={{ textDecoration: "none" }}>
+          <div className="nav-item basket-icon">
+            <ShoppingBasketIcon />
+            <span className="2nd line">0</span>
+          </div>
+        </Link>
       </div>
     </div>
   );

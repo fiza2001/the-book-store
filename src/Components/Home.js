@@ -1,9 +1,11 @@
 import "./Home.css";
 import Product from "./Product.js";
+import Header from "./Header.js"
 
 export default function Home() {
   return (
     <div>
+      <Header />
       <div className="home">
         {/* top img */}
         <img src={require("./images/bk1.jpg")} alt="" className="home-img" />

@@ -1,0 +1,5 @@
+.productBag{
+    display: flex;
+    width: auto;
+    align-items: flex-end;
+}
