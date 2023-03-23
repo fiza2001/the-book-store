@@ -13,14 +13,16 @@ export default function Home() {
             id="1"
             title="I FELL IN LOVE WITH HOPE by LANCALI"
             price={290}
-            description="Against the unforgiving landscape of a hospital...."
+            genre="Fiction"
+            rating={4}
             image="https://therightbookstoreindia.com/wp-content/uploads/2022/11/1669297396-1024x944.jpg"
             />
             <Product 
              id="2"
              title="IT STARTS WITH US by COLLEEN HOOVER"
+             genre="Fiction"
              price={190}
-             description="Before It Ends with Us, it started with Atlas...."
+             rating={3}
              image="https://therightbookstoreindia.com/wp-content/uploads/2022/10/1666607725.jpg"
              />
           </div>
@@ -28,22 +30,25 @@ export default function Home() {
           <Product 
            id="3"
            title="IKIGAI [HARDCOVER] by HECTOR GARCIA"
+           genre="Non-Fiction"
            price={566}
-           description="It’s the Japanese word for ‘a reason to live’ or ‘a reason to jump out of bed in the morning’."
+           rating={2}
            image="https://therightbookstoreindia.com/wp-content/uploads/2021/09/1632729563.jpg"
            />
           <Product 
            id="4"
            title="RICH DAD POOR DAD by ROBERT KIYOSAKI"
+           genre="Non-Fiction"
            price={299}
-           description="Rich Dad Poor Dad is Robert’s story of growing up with two dads ..."
+           rating={5}
            image="https://therightbookstoreindia.com/wp-content/uploads/2021/09/1632727603.jpg"
            />
           <Product 
            id="5"
            title="BEFORE YOUR MEMORY FADES by TOSHIKAZU KAWAGUCHI"
+           genre="Fiction"
            price={320}
-           description="On the hillside of Mount Hakodate in northern Japan, Cafe Donna Donna is fabled "
+           rating={4}
            image="https://therightbookstoreindia.com/wp-content/uploads/2022/10/1666866230.jpg"
            />
           </div>
@@ -51,8 +56,9 @@ export default function Home() {
           <Product 
            id="6"
            title="BERSERK MANGA VOL 1 KENTARO MIURA"
+           genre="Fantasy"
            price={499}
-           description="His name is Guts, the Black Swordsman, a feared warrior spoken of only in whispers..."
+           rating={3}
            image="https://therightbookstoreindia.com/wp-content/uploads/2023/01/1673280541.jpg"
            /></div>
         </div>
