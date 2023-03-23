@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .home-img {
   width: 100%;
   height: 400px;
@@ -5,16 +8,36 @@
   margin-bottom: -50px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
-.home{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1500px;
-}
 .home-row{
+  margin: 20px;
+}
+.row-one, .row-two{
   display: flex;
-  z-index: 1;
-  margin-left: 5px;
-  margin-right: 5px;
+  justify-content: space-evenly;
+}
+
+/* .home-row{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+/* .row-one{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.row-two{
+  display: flex;
+  flex-basis: 100px;
+  justify-content: space-evenly;
+} */
+
+/* responsive */
+@media screen and (max-width: 1042px){
+  .row-one, .row-two{
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }
