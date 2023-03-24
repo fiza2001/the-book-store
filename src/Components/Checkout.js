@@ -11,7 +11,7 @@ export default function Checkout() {
             <div className="left-side">
                 <h1>Checkout</h1>
                 <h2>Your Bag</h2>
-                <ProductBag />
+                <ProductBag /><br />
             </div>
             <div className="right-side">
                 <SubTotal />

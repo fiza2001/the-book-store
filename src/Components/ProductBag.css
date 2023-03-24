@@ -1,5 +1,24 @@
-.productBag{
+.product-bag{
+    line-height: 4px;
     display: flex;
-    width: auto;
-    align-items: flex-end;
+    width: 100%;
+    align-items: center;
+    background-color: beige;
+    padding: 10px;
+}
+.product-bag-img{
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+}
+.product-bag-rating{
+   height: 0;
+   
+}
+
+/* responsive */
+@media screen and (max-width: 645px){
+    .product-bag{
+        line-height: 25px;
+    }
 }

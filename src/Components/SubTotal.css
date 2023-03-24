@@ -1,0 +1,23 @@
+.subtotal{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid blue;
+    padding: 30px;
+    align-items: end;
+}
+.proceed-btn-div{
+    text-align: center;
+}
+.proceed-btn{
+    background-color: blue;
+    color: white;
+}
+
+/* responsive */
+@media screen and (max-width: 645px) {
+    .subtotal{
+        width: 100%;
+    }
+    
+}
