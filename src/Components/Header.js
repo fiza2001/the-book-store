@@ -4,14 +4,16 @@ import DiamondIcon from "@mui/icons-material/Diamond";
 import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
 
+
 export default function Header() {
+  
   return (
     <div className="header">
       {/* nav logo */}
       <Link to="/" style={{ textDecoration: "none" }}>
         <div className="header-logo">
           <DiamondIcon className="header-logo-img" fontSize="large" />
-          <h2 className="header-logo-title">Bookish</h2>
+          <h2 className="header-logo-title">Fiyah's</h2>
         </div>
       </Link>
 
