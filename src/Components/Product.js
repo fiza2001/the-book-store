@@ -1,41 +1,24 @@
 import "./Product.css";
-import { useStateValue } from "./StateProvider.js"
 
 
 
-export default function Product({ id, title, price, rating, image, genre }) {
+export default function Product(props) {
 
-  const [state, dispatch] = useStateValue()
-
-  const addToBasket = () => {
-    dispatch({
-      type: "ADD-TO-BASKET",
-      item: {
-        id: id,
-        title: title,
-        price: price,
-        rating: rating,
-        image: image,
-        genre: genre
-      }
-    })
-  }
-
- 
+  
   return (
     <div>
       <div className="product">
         <div className="product-img-div">
-          <img src={image} alt="" className="product-img" />
+          <img src={props.image} alt="" className="product-img" />
         </div>
         <div className="product-info">
           <h4>
-            {title}
-            <span>({genre})</span>
+            {props.title}
+            <span>({props.genre})</span>
           </h4>
-          <h3>{price}$</h3>
+          <h3>{props.price}$</h3>
           <div className="rating">
-          {Array(rating)
+          {Array(props.rating)
             .fill()
             .map((_, i) => (
               <p>⭐</p>
@@ -43,7 +26,7 @@ export default function Product({ id, title, price, rating, image, genre }) {
           </div>
           
 
-          <button onClick={addToBasket}>Add to cart</button>
+          <button>Add to cart</button>
         </div>
       </div>
     </div>

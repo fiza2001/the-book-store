@@ -9,10 +9,11 @@ export default function ProductBag() {
         alt=""
       />
       <div className="product-bag-info">
-        <h4>I FELL IN LOVE WITH HOPE by LANCALI (Fiction)</h4>
+        <h4>I FELL IN LOVE WITH HOPE by LANCALI</h4>
         <h3>200 $</h3>
-        <div className="product-bag-rating"></div>
+        <div className="product-bag-rating">
         <p>⭐⭐⭐⭐</p>
+        </div>
         <button>Remove from cart</button>
       </div>
     </div>
