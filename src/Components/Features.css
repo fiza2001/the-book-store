@@ -1,0 +1,38 @@
+.features{
+    position: relative;
+    bottom: 80px;
+}
+.feature1, .feature2, .feature3, .feature4{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+.left-div{
+background: rgba(89, 183, 195, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
+border: 1px solid rgba(89, 183, 195, 0.3);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.left-img{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+.right-div{
+    margin-top: 30px;
+    line-height: 40px;
+    width: 500px;
+}
+.right-div1{
+    margin-top: 30px;
+    line-height: 40px;
+}

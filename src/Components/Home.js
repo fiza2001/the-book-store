@@ -1,8 +1,12 @@
 import "./Home.css";
-// import Product from "./Product.js";
 import Header from "./Header.js"
 import Slider from "./Slider.js"
 import BestSellers from "./BestSellers.js"
+import Features from "./Features.js"
+
+
+
+
 
 export default function Home() {
   return (
@@ -17,6 +21,9 @@ export default function Home() {
         </div>
         <div className="bestsellers-div">
         <BestSellers />
+        </div>
+        <div className="features-div">
+          <Features />
         </div>
         
         
