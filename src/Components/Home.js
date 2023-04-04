@@ -3,6 +3,7 @@ import Header from "./Header.js"
 import Slider from "./Slider.js"
 import BestSellers from "./BestSellers.js"
 import Features from "./Features.js"
+import Social from "./Social.js";
 
 
 
@@ -24,6 +25,9 @@ export default function Home() {
         </div>
         <div className="features-div">
           <Features />
+        </div>
+        <div>
+          <Social />
         </div>
         
         

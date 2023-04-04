@@ -1,11 +1,27 @@
 .bestseller{
-    background-color: skyblue;
+    background-color: #4158d0;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
     text-align: center;
     padding-top: 200px;
     position: relative;
     bottom: 150px;
+    padding-bottom: 10px;
 }
 .bs-toggle{
     display: none;
+}
+.view-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+h1{
+  color: white;
 }
 

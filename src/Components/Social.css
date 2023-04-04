@@ -1,0 +1,28 @@
+.social{
+    display: flex;
+    justify-content: space-around;
+background: rgba(141, 230, 223, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(141, 230, 223, 0.3);
+padding-top: 100px;
+padding-bottom: 100px;
+}
+h1{
+    color: black;
+}
+p{
+    color: gray;
+}
+.icon{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icon-div{
+    margin-top: 15px;
+    display: flex;
+    gap: 40px;
+}

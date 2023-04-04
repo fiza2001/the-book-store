@@ -11,7 +11,7 @@ export default function BestSellers() {
     return (
         
         <div className="bestseller">
-            <h2>Bestsellers</h2>
+            <h1>Bestsellers</h1>
             
             <div className="home-row">
           <div className="row-one">

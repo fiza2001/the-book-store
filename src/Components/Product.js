@@ -26,7 +26,7 @@ export default function Product(props) {
           </div>
           
 
-          <button>Add to cart</button>
+          <button className="cart-btn">Add to cart</button>
         </div>
       </div>
     </div>

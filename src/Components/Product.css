@@ -1,8 +1,8 @@
 .product{
     width: auto;
     align-items: flex-end;
-    max-height: 400px;
-    min-width: 100px;
+    /* max-height: 400px;
+    min-width: 100px; */
     z-index: 1;
     padding-left: 20px;
     padding-right: 20px;
@@ -12,7 +12,23 @@
 .rating{
     display: flex;
     justify-content: center;
+    position: relative;
+    bottom: 20px;
     height: 50px;
+}
+.cart-btn{
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    height: 35px;
+    border-bottom-right-radius: 15px;
+    background-color: #4158d0;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
 }
 .product-img{
     object-fit: contain;
@@ -22,15 +38,25 @@
 .product-img-div{
     text-align: center;
     height: 200px;
+    background-color: white;
+    border-top-left-radius: 20px;
 }
 .product-info{
     text-align: center;
-    padding: 0;
+   /* From https://css.glass */
+background: rgba(240, 189, 45, 0.45);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.4px);
+-webkit-backdrop-filter: blur(12.4px);
+border: 1px solid rgba(240, 189, 45, 0.69);
+    border-bottom-right-radius: 20px;
+    width: 323px;
+    padding-top: 10px;
     line-height: 20px;
-    border: 2px solid black;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    height: 180px;
 }
 
 /* responsive */
@@ -43,5 +69,8 @@
         padding-left: 20px;
         padding-right: 20px;
         margin-bottom: 20px;
+    }
+    .product-info{
+        width: 321px;
     }
 }
