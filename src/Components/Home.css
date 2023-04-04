@@ -9,7 +9,7 @@ body{
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 .home-row{
-  margin: 20px;
+  margin: 40px;
 }
 .row-one, .row-two{
   display: flex;

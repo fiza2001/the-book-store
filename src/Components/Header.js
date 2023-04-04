@@ -35,12 +35,12 @@ export default function Header() {
         <div className="nav-item">
           <span className="1st-line">Hello User</span>
           <br />
-          <span className="2nd line">Sign in...</span>
+          <span className="2nd line">Sign Up</span>
         </div>
         <div className="nav-item">
           <span className="1st-line">Your</span>
           <br />
-          <span className="2nd line">Shop</span>
+          <span className="2nd line">Products</span>
         </div>
         <Link to="/checkout" style={{ textDecoration: "none" }}>
           <div className="nav-item basket-icon">

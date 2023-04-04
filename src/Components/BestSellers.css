@@ -1,0 +1,11 @@
+.bestseller{
+    background-color: skyblue;
+    text-align: center;
+    padding-top: 200px;
+    position: relative;
+    bottom: 150px;
+}
+.bs-toggle{
+    display: none;
+}
+

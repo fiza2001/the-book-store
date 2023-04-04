@@ -15,6 +15,7 @@ const images = [
 
 export default function Slider() {
     return (
+    
     <div className="slider">
           <SimpleImageSlider
         width={800}
@@ -24,6 +25,7 @@ export default function Slider() {
         autoPlayDelay={1.6}
       />
    </div>
+  
     )
         
       

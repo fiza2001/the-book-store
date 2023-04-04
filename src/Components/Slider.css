@@ -1,5 +1,6 @@
 .slider{
     border: 12px solid black;
+    z-index: 1;
     border-radius: 9px;
     width: 800px;
     height: 500px;
