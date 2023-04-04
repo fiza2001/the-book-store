@@ -1,6 +1,7 @@
 import "./Home.css";
-import Product from "./Product.js";
+// import Product from "./Product.js";
 import Header from "./Header.js"
+import Slider from "./Slider.js"
 
 export default function Home() {
   return (
@@ -9,7 +10,10 @@ export default function Home() {
       <div className="home">
         {/* top img */}
         <img src={require("./images/bk1.jpg")} alt="" className="home-img" />
-        <div className="home-row">
+        <>
+        <Slider />
+        </>
+        {/* <div className="home-row">
           <div className="row-one">
             <Product 
             id="1"
@@ -63,7 +67,7 @@ export default function Home() {
            rating={3}
            image="https://therightbookstoreindia.com/wp-content/uploads/2023/01/1673280541.jpg"
            /></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
