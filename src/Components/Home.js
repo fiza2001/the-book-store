@@ -10,9 +10,11 @@ export default function Home() {
       <div className="home">
         {/* top img */}
         <img src={require("./images/bk1.jpg")} alt="" className="home-img" />
-        <>
+        <br />
+        <div className="slider-div">
         <Slider />
-        </>
+        </div>
+        
         {/* <div className="home-row">
           <div className="row-one">
             <Product 
