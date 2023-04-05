@@ -4,7 +4,7 @@ import Slider from "./Slider.js"
 import BestSellers from "./BestSellers.js"
 import Features from "./Features.js"
 import Social from "./Social.js";
-
+import Footer from "./Footer.js"
 
 
 
@@ -29,9 +29,11 @@ export default function Home() {
         <div>
           <Social />
         </div>
+        <div>
+          <Footer />
+        </div>
+        </div>
         
-        
-      </div>
     </div>
   );
 }
