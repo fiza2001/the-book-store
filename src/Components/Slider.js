@@ -19,7 +19,7 @@ export default function Slider() {
     <div className="slider">
           <SimpleImageSlider
         width={800}
-        height={500}
+        height={600}
         images={images}
         autoPlay={true}
         autoPlayDelay={1.6}

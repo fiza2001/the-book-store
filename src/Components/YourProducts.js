@@ -1,20 +1,13 @@
 import React from "react"
-import "./BestSellers.css"
+import "./YourProducts.css"
 import Product from "./Product.js"
 
-export default function BestSellers() {
+export default function YourProducts(params) {
 
-    function updateBsProduct(){
-        document.querySelector(".row-two").style.display = "flex"
-        document.querySelector(".view-btn").style.display = "none"
-    }
     return (
-        
-        <div className="bestseller">
-            <h1>Bestsellers</h1>
-            
-            <div className="home-row">
-          <div className="row-one">
+        <div className="products">
+            <h1>Products</h1>
+            <div className="product-div">
             <Product 
             id="1"
             title="I FELL IN LOVE WITH HOPE by LANCALI"
@@ -39,12 +32,7 @@ export default function BestSellers() {
            rating={2}
            image="https://therightbookstoreindia.com/wp-content/uploads/2021/09/1632729563.jpg"
            />
-          </div>
-          {/* view more */}
-          <button onClick={updateBsProduct} className="view-btn">View more</button>
-
-          <div className="row-two">
-          <Product 
+           <Product 
            id="3"
            title="IKIGAI [HARDCOVER] by HECTOR GARCIA"
            genre="Non-Fiction"
@@ -68,9 +56,7 @@ export default function BestSellers() {
            rating={4}
            image="https://therightbookstoreindia.com/wp-content/uploads/2022/10/1666866230.jpg"
            />
-          </div>
-          <div className="row-two">
-          <Product 
+           <Product 
            id="6"
            title="BERSERK MANGA VOL 1 KENTARO MIURA"
            genre="Fantasy"
@@ -94,8 +80,8 @@ export default function BestSellers() {
            rating={2}
            image="https://therightbookstoreindia.com/wp-content/uploads/2021/09/1632729563.jpg"
            />
-           </div>
-        </div>
+            </div>
+
         </div>
     )
     

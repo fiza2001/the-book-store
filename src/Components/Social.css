@@ -26,3 +26,23 @@ p{
     display: flex;
     gap: 40px;
 }
+
+/* responsive */
+
+@media screen and (max-width: 728px) {
+    .social{
+        display: block;
+        text-align: center;
+    }
+    .icon-div{
+        margin-top: 30px;
+        gap: 20px;
+        margin-left: 130px;
+       
+    }
+    .icon{
+        height: 45px;
+        width: 45px;
+    }
+    
+}

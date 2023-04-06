@@ -4,6 +4,7 @@
     background-color: plum;
     padding-top: 30px;
     margin-top: 60px;
+    padding-bottom: 30px;
 }
 
 .info-div{
@@ -23,4 +24,51 @@
 
 .contact-form{
     color: black;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: bisque;
 }
+
+.form-inp{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 30px;
+    width: 315px;
+  }
+  .form-send-btn1{
+    margin-right: 10px;
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+  }
+  .form-send-btn2{
+    margin-right: 10px;
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+  }
+  
+  .form-text-area{
+    border-radius: 10px;
+  }
+
+  /* responsive */
+
+  @media screen and (max-width: 728px) {
+
+    .footer{
+        display: block;
+    }
+    .info-div{
+        margin: 30px;
+    }
+    .contact-form{
+        padding-top: 10px;
+        margin: 30px;
+    }
+    
+  }

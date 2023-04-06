@@ -37,11 +37,15 @@ export default function Header() {
           <br />
           <span className="2nd line">Sign Up</span>
         </div>
+        {/* your products link */}
+        <Link to="/products" style={{ textDecoration: "none"}}>
         <div className="nav-item">
           <span className="1st-line">Your</span>
           <br />
           <span className="2nd line">Products</span>
         </div>
+        </Link>
+        {/* cart link */}
         <Link to="/checkout" style={{ textDecoration: "none" }}>
           <div className="nav-item basket-icon">
             <ShoppingBasketIcon />
