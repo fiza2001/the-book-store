@@ -1,10 +1,13 @@
 import React from "react"
 import "./YourProducts.css"
 import Product from "./Product.js"
+import Header from "./Header.js"
 
 export default function YourProducts(params) {
 
     return (
+        <div>
+            <Header />
         <div className="products">
             <h1>Products</h1>
             <div className="product-div">
@@ -82,6 +85,7 @@ export default function YourProducts(params) {
            />
             </div>
 
+        </div>
         </div>
     )
     
