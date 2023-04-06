@@ -46,7 +46,7 @@ export default function Header() {
         </div>
         </Link>
         {/* cart link */}
-        <Link to="/checkout" style={{ textDecoration: "none" }}>
+        <Link to="/shopping-cart" style={{ textDecoration: "none" }}>
           <div className="nav-item basket-icon">
             <ShoppingBasketIcon />
             <span className="2nd line">0</span>

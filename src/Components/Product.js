@@ -3,7 +3,6 @@ import "./Product.css";
 
 
 export default function Product(props) {
-
   
   return (
     <div>
