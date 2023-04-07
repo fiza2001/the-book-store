@@ -1,11 +1,15 @@
+import React from "react"
 import "./Product.css";
 
 
 
 export default function Product(props) {
+
+ 
   
   return (
     <div>
+     
       <div className="product">
         <div className="product-img-div">
           <img src={props.image} alt="" className="product-img" />

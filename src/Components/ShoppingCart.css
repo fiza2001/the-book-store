@@ -1,0 +1,12 @@
+.modal{
+    background-color: pink;
+    overflow: hidden;
+}
+.cart-product{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.count, .remove-btn{
+    height: 50px;
+}
